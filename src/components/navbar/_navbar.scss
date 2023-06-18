@@ -1,0 +1,17 @@
+.links-mobile {
+  display: none;
+}
+
+@include md {
+  .links {
+    display: none;
+  }
+  .links-mobile {
+    display: block;
+  }
+}
+@include md-min {
+  .mobile-modal {
+    display: none;
+  }
+}

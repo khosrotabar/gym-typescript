@@ -1,0 +1,17 @@
+.sparkles {
+  &::before {
+    position: absolute;
+    bottom: -5rem;
+    right: 10rem;
+    z-index: -1;
+    content: url("@/assets/sparkles.png");
+  }
+}
+
+.abstractwaves {
+  position: absolute;
+  top: -5rem;
+  left: -5rem;
+  z-index: 1;
+  content: url("@/assets/AbstractWaves.png");
+}

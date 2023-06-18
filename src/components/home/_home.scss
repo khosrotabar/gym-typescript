@@ -1,0 +1,22 @@
+.learn-more-link {
+  &:hover {
+    color: $secondary-500;
+  }
+}
+
+@include md {
+  .sponsor {
+    display: none;
+  }
+}
+@include md-min {
+  .evolvetext {
+    &::before {
+      position: absolute;
+      top: -5rem;
+      left: -5rem;
+      z-index: -1;
+      content: url("@/assets/EvolveText.png");
+    }
+  }
+}
