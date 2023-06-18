@@ -4,7 +4,7 @@
     bottom: -5rem;
     right: 10rem;
     z-index: -1;
-    content: url("@/assets/sparkles.png");
+    content: url("/src/assets/sparkles.png");
   }
 }
 
@@ -13,5 +13,5 @@
   top: -5rem;
   left: -5rem;
   z-index: 1;
-  content: url("@/assets/AbstractWaves.png");
+  content: url("/src/assets/AbstractWaves.png");
 }
